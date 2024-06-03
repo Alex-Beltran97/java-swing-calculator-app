@@ -49,7 +49,7 @@
                   <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="+"/>
+                  <text value="-"/>
                 </properties>
               </component>
               <component id="be8bc" class="javax.swing.JButton" binding="btnMulti">
@@ -148,9 +148,9 @@
                   <text value="="/>
                 </properties>
               </component>
-              <component id="af253" class="javax.swing.JButton" binding="a0Button" default-binding="true">
+              <component id="af253" class="javax.swing.JButton" binding="a0Btn">
                 <constraints>
-                  <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
                   <text value="0"/>
@@ -162,6 +162,22 @@
                 </constraints>
                 <properties>
                   <text value="CE"/>
+                </properties>
+              </component>
+              <component id="f7874" class="javax.swing.JButton" binding="aCommaBtn">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value=","/>
+                </properties>
+              </component>
+              <component id="afe05" class="javax.swing.JButton" binding="CBtn">
+                <constraints>
+                  <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="C"/>
                 </properties>
               </component>
             </children>
